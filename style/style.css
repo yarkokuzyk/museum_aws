@@ -4,19 +4,25 @@
 }
 
 body {
+	margin: 0;
 	background: #F5F5F5;
 	font-family: 'Roboto';
 	font-style: normal;
+	
 }
 
 main {
 	background: #131313;
 	color: #F2F2F2;
-	width: 99.8%;
-	height: 6155px;
+	width: 100%;
+	height: 100%;
+
 }
 
 
+header {
+	height: 130px;
+}
 header > a {
 	color: #FFFFFF;
 	text-decoration-line: none;
@@ -33,31 +39,34 @@ header > a:hover {
 
 header > img {
 	position: absolute;
-	width: 3%;
-	height: 9%;
-	left: 15.5%;
+	width: 52px;
+	height: 86px;
+	left: 286px;
 	top: 44px;
 }
 
 a.home {
-	left: 70%;
+	left: 1259px;
 	top: 67px;
 }
 
 a.gallery {
-	left: 74%;
+	left: 1354px;
 	top: 67px;
 }
 
 a.contacts {
-	left: 78%;
+	left: 1437px;
 	top: 67px;
 }
 
-h1, h2, h2 + p {
-	position: relative;
-}
 
+.zwei {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 870px;
+}
 h1 {
 	font-weight: 200;
 	font-size: 64px;
@@ -65,77 +74,154 @@ h1 {
 	text-align: center;
 	letter-spacing: 0.035em;
 	text-transform: uppercase;
-	width: 75%;
-	left: 13%;
-	top: 311px;
-}
+	width: 1420px;
+	height: 150px;
+	margin-top: 181px;
+	margin-bottom: 204px;
 
-#image1, #image2 {
-	position: relative;
 }
 
 #image1 {
 	width: 100%;
-	height: 1000px;
-	top: 665px;
+	margin: 0;
 }
 
-#image2 {
-	left: 26.5%;
-	width: 73.4%;
-	height: 873px;
-	top: 2230px;
-	
-}
 
-#image3 {
-	position: absolute;
-	left: 100%;
-	width: 73.4%;
-	height: 490px;
-	top: 2230px;
-}
 
+
+.firstPhotoSetDescription {
+	display: flex;
+	justify-content: center;
+	margin-top: 64px;
+	margin-bottom: 20px;
+}
 h2 {
+	font-family: 'Roboto';
+	font-style: normal;
 	font-weight: 500;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
-	width: 20%;
-	height: 32px;
-	left: 40.5%;
-	top: 729px;
+	text-transform: uppercase;
+	color: #F2F2F2;
+	width: 100%;
+	height: 42px;
+	margin: 0;
 }
-
-h2 + p {
+.second-PhotoSetDescription {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 65px;
+}
+.second-PhotoSetDescription-p {
 	font-family: 'Alegreya';
 	font-style: normal;
-	color: #BDBDBD;
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 33px;
 	text-align: center;
-	width: 38%;
+	color: #BDBDBD;
+	width: 689px;
 	height: 85px;
-	left: 31.5%;
-	top: calc(725px + 0.2%);
+	margin: 0;
 }
 
-div, div > p {
-	position: relative;
+.firstPhotoSet {
+ 	display: flex;
+	justify-content: center;
+}
+.firstPhotoSet2 {
+	display: flex;
+	flex-direction: column;
 }
 
-div {
-	width: 50%;
+img [src="images/image3.png"] {
+	width: 675px;
+	height: 490px;
+}
+img [src="images/image2.png"] {
+	width: 673px;
 	height: 873px;
-	top: -23%;
 }
 
-div > p {
-	width: 69%;
-	height: 231px;
-	left: 103%;
-	top: 1850px;
+
+.photoSetMainText {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
+	font-weight: normal;
+	color: #F2F2F2;
+	width: 641px;
+	height: 231px;
+	margin-top: 32px;
+	margin-left: 33px;
+}
+
+.vier {
+	margin-top: 64px;
+	margin-bottom: 64px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.pVier {
+	font-family: 'Alegreya';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	color: #BDBDBD;
+	width: 100%;
+	height: 27px;
+}
+.thirdPhotoSet {
+	display: flex;
+	justify-content: center;
+}
+img [src="images/Image 4.png"] {
+	width: 443px;
+	height: 416px;
+}
+img [src="images/Image 5.png"] {
+	width: 464px;
+	height: 416px;
+}
+img [src="images/Image 6.png"] {
+	width: 442px;
+	height: 416px;
+}
+
+#image7 {
+	width: 100%;
+	margin-top: 64px;
+}
+
+#image81 {
+	margin-left: 43px;
+	width: 486px;
+	margin-top: 597px;
+	height: 584px;
+	opacity: 0.2;
+}
+
+#image82 {
+	margin-right: 43px;
+	margin-top: 597px;
+	float: right;
+	width: 486px;
+	height: 584px;
+	opacity: 0.2;
+}
+
+.Museummm {
+	width: 100%;
+	height: 1347px;
+}
+
+footer {
+	height: 10px;
+	width: 100%;
 }
