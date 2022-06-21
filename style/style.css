@@ -66,7 +66,7 @@ a.here {
 }
 
 .imageWithText:hover a img {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 
 h1 {
@@ -470,6 +470,7 @@ h1.desc {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	margin-top: 100px;
 }
 
 div.desc {
@@ -508,10 +509,12 @@ div.desc p {
 	border-radius: 3px;
 	padding: 15px 30px;
 	margin: auto;
-	margin-bottom: 25px;
+	margin-top: 43px;
+	margin-bottom: 100px;
 	width: 10%;
 	display: flex;
 	justify-content: center;
+	
 }
 
 #back:hover {
@@ -548,3 +551,84 @@ footer a:hover {
  	height: auto;
 	padding-left: 290px;
 }
+
+.ratusha1 {
+	text-align: center;
+	padding-top: 75px;
+
+}
+
+.bandera1 {
+	text-align: center;
+	padding-top: 75px;
+	
+}
+
+.bandera1 p {
+	margin: auto;
+	padding-top: 55px;
+	font-family: 'Alegreya';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+width: 1348px;
+height: 61px;
+}
+
+.bandera1 hr {
+	margin-top: 100px;
+	width: 72.25%;
+	background: #4F4F4F;
+	opacity: 0.2;
+	margin-bottom: 100px;
+}
+
+.ratusha1 p {
+	
+	margin: auto;
+	font-family: 'Alegreya';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 33px;
+	color: #F2F2F2;
+	width: 1348px;
+	height: 91px;
+	padding-top: 55px;
+}
+
+.ratusha1 hr {
+	margin-top: 100px;
+	width: 72.25%;
+	background: #4F4F4F;
+	opacity: 0.2;
+	margin-bottom: 100px;
+}
+
+.ratusha2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.ratusha2 p {
+	font-family: 'Alegreya';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 33px;
+	color: #F2F2F2;
+	width: 1348px;
+	height: 99px;
+	padding-bottom: 65px;
+}
+
+.ratushaproperties {
+	text-align: center;
+}
+
